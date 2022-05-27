@@ -1,28 +1,49 @@
----
-title: Python Telegram Bot
-description: A Telegram Bot Written in Python
-tags:
-  - python
-  - python-discord-bot
-  - telegram
----
+# FileSharingV2
+  
+</p>
 
-# Python-Telegram-Bot
+### Features
+- Fully customisable.
+- Customisable welcome & Forcesub messages.
+- More than one Posts in One Link.
+- Can be deployed on heroku directly.
 
-This example starts a Telegram bot using [python-telegram-bot](https://www.python-telegram-bot.org/) library.
+##
+### Installation
+#### Deploy on Heroku
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/OLLPROJECT/File-sharing-1-botom-)</br> 
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2Frailwayapp%2Fexamples%2Ftree%2Fmaster%2Fexamples%2Fpython-telegram-bot&envs=TOKEN&TOKENDesc=The+Telegram+Bot%27s+Token+%28Generate+a+token+from+%40BotFather+if+you+don%27t+have+one%21%29)
+### Admin Commands
 
-## ✨ Features
+```
+/start - mulai bot atau dapatkan postingan 
 
-- Python
-- Python Telegram Bot
+/batch - buat link untuk lebih dari satu postingan
 
-## 💁‍♀️ How to use
+/genlink - bua link untuk satu postingan
 
-- Install packages using `pip install -r requirements.txt`
-- Start the bot using `python bot.py`
+/users - lihat statistik bot
 
-## 📝 Notes
+/broadcast - menyiarkan pesan apa pun ke pengguna bot
+```
+### Fillings
+#### START_MESSAGE | FORCE_SUB_MESSAGE
 
-This is a basic bot with the command `/start`, more information can be founded at the [offical documentation](https://python-telegram-bot.readthedocs.io/en/stable/).
+* `{first}` - User first name
+* `{last}` - User last name
+* `{id}` - User ID
+* `{mention}` - Mention the user
+* `{username}` - Username   
+   
+### Licence
+[![GNU GPLv3 Image](https://www.gnu.org/graphics/gplv3-127x51.png)](http://www.gnu.org/licenses/gpl-3.0.en.html)  
+
+[FileSharing1Bottom](https://github.com/OLLPROJECT/File-sharing-1-botom-) adalah Perangkat Lunak Gratis: Anda dapat menggunakan, mempelajari, berbagi, dan meningkatkannya di
+akan. Secara khusus Anda dapat mendistribusikan ulang dan/atau memodifikasinya di bawah ketentuan
+[GNU General Public License](https://www.gnu.org/licenses/gpl.html) sebagai
+diterbitkan oleh Free Software Foundation, baik versi 3 dari Lisensi, atau
+(sesuai pilihan Anda) versi yang lebih baru.
+
+##
+
+   **Star this Repo if you Liked it ⭐⭐⭐**
